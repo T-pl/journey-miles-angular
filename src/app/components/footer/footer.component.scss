@@ -2,11 +2,18 @@ footer{
   color: #fff;
   background-color: #1D1B20;
   height: 232px;
-  text-align: center;
+  p{
+    text-align: center;
+  }
   .container-footer{
     padding: 25px 180px;
     display: flex;
     justify-content: space-between;
+    .left-footer{
+      img{
+        margin-bottom: 10px;
+      }
+    }
     .right-footer{
       .icons-medias{
         display: flex;
