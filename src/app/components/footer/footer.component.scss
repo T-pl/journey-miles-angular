@@ -1,0 +1,19 @@
+footer{
+  color: #fff;
+  background-color: #1D1B20;
+  height: 232px;
+  text-align: center;
+  .container-footer{
+    padding: 25px 180px;
+    display: flex;
+    justify-content: space-between;
+    .right-footer{
+      .icons-medias{
+        display: flex;
+        margin-top: 15px;
+        justify-content: space-between;
+        cursor: pointer;
+      }
+    }
+  }
+}

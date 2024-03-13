@@ -1,0 +1,19 @@
+
+.app-header{
+  .mat-toolbar{
+      background-color: #000;
+      padding: 0 180px;
+      .spacer {
+        flex: 1 1 auto;
+      }
+      .white-text{
+        color: #fff;
+        margin: 0 16px;
+      }
+      .mat-mdc-outlined-button:not(:disabled){
+        border-color: #fff;
+      }
+      
+  }
+}
+
